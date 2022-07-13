@@ -50,6 +50,7 @@ namespace Library
         /// <returns>Base 64 text.</returns>
         public static string EncodeByteArray(byte[] bytearray)
         {
+            if (bytearray == null || bytearray.Length == 0) return (String.Empty);
             return (Convert.ToBase64String(bytearray));
         }
 
@@ -60,6 +61,7 @@ namespace Library
         /// <returns>Byte Array.</returns>
         public static byte[] DecodeByteArray(string base64text)
         {
+            if (String.IsNullOrEmpty(base64text)) return (null);
             return (Convert.FromBase64String(base64text));
         }
     }
