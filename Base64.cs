@@ -4,7 +4,7 @@
 **  Licensed under the MIT license.
 **  See LICENSE file in the project root for full license information.
 **
-**  This file is a part of the C# Libray Base64.
+**  This file is a part of the C# Library Base64.
 ** 
 **  Base64 coding
 **
